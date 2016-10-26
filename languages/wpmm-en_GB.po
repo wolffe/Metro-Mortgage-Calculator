@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Metro Mortgage Calculator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-25 10:38-0000\n"
+"PO-Revision-Date: 2014-08-25 10:38-0000\n"
+"Last-Translator: Ciprian Popescu <getbutterfly@gmail.com>\n"
+"Language-Team: getButterfly <getbutterfly@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../mortgage-calculator-ajax.php:109
+msgid "Monthly Payment"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:116
+msgid "APR"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:119 ../mortgage-calculator-ajax.php:131
+#: ../mortgage-calculator.php:317
+msgid "Down Payment"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:122 ../mortgage-calculator-ajax.php:152
+#: ../mortgage-calculator.php:295 ../mortgage-calculator.php:315
+msgid "Loan Amount"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:125
+msgid "Interest paid"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:134
+msgid "Annual Interest Rate"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:137 ../mortgage-calculator-ajax.php:140
+msgid "Loan Term"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:138
+msgid "years"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:141
+msgid "months"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:143 ../mortgage-calculator.php:323
+msgid "Closing Costs"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:146 ../mortgage-calculator.php:325
+msgid "Payment Type"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:149
+msgid "Amount Borrowed"
+msgstr ""
+
+#: ../mortgage-calculator-ajax.php:155
+msgid "Home Price"
+msgstr ""
+
+#: ../mortgage-calculator.php:92
+msgid "Metro Mortgage Calculator Options"
+msgstr ""
+
+#: ../mortgage-calculator.php:98
+msgid "Plugin Information"
+msgstr ""
+
+#: ../mortgage-calculator.php:108
+msgid "You are using"
+msgstr ""
+
+#: ../mortgage-calculator.php:111
+msgid "Official Web Site"
+msgstr ""
+
+#: ../mortgage-calculator.php:118
+msgid "Plugin Help and Support"
+msgstr ""
+
+#: ../mortgage-calculator.php:120
+msgid "For more information and updates, visit the"
+msgstr ""
+
+#: ../mortgage-calculator.php:120
+msgid "official web site"
+msgstr ""
+
+#: ../mortgage-calculator.php:129
+msgid "How to use"
+msgstr ""
+
+#: ../mortgage-calculator.php:131
+msgid ""
+"Add the <code>[metro-mortgage-calculator]</code> shortcode to any post or "
+"page to start using the calculator. The calculator will use the default "
+"options."
+msgstr ""
+
+#: ../mortgage-calculator.php:132
+msgid ""
+"In order to correctly render the currency symbol, make sure you have the "
+"correct encoding in your theme header:<br><code>&lt;meta http-equiv=&quot;"
+"content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;</code> "
+"or <code>&lt;meta charset=&quot;utf-8&quot;&gt;</code> if you are using "
+"HTML5."
+msgstr ""
+
+#: ../mortgage-calculator.php:138 ../mortgage-calculator.php:141
+msgid "Calculator Options"
+msgstr ""
+
+#: ../mortgage-calculator.php:157
+msgid "Theme Options"
+msgstr ""
+
+#: ../mortgage-calculator.php:174
+msgid "Email Options"
+msgstr ""
+
+#: ../mortgage-calculator.php:291 ../mortgage-calculator.php:311
+msgid "Mortgage"
+msgstr ""
+
+#: ../mortgage-calculator.php:291
+msgid "Standard Calculator"
+msgstr ""
+
+#: ../mortgage-calculator.php:297 ../mortgage-calculator.php:319
+msgid "Interest Rate"
+msgstr ""
+
+#: ../mortgage-calculator.php:299 ../mortgage-calculator.php:321
+msgid "Loan Term (years)"
+msgstr ""
+
+#: ../mortgage-calculator.php:302 ../mortgage-calculator.php:329
+msgid "Send results via email (optional)"
+msgstr ""
+
+#: ../mortgage-calculator.php:302 ../mortgage-calculator.php:329
+msgid "Your email"
+msgstr ""
+
+#: ../mortgage-calculator.php:304 ../mortgage-calculator.php:331
+msgid "Calculate"
+msgstr ""
+
+#: ../mortgage-calculator.php:311
+msgid "Advanced Calculator"
+msgstr ""
+
+#: ../mortgage-calculator.php:326
+msgid "Principal &amp; Interest (pi)"
+msgstr ""
+
+#: ../mortgage-calculator.php:327
+msgid "Interest Only (io)"
+msgstr ""
+
+#: ../mortgage-calculator.php:339
+msgid "Mortgage Calculator powered by"
+msgstr ""
+
+#~ msgid "Loan Type"
+#~ msgstr "Tip imprumut"

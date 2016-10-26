@@ -1,0 +1,122 @@
+#wp_mtg_calc_wrapper {
+	font-family: inherit;
+	font-size: 11pt;
+	border: 1px solid #DDDDDD;
+	list-style: none;
+	margin-bottom: 16px;
+}
+#wp_mtg_calc_wrapper .wp_mtg_calc_text {
+	font-family: inherit;
+	font-size: 11pt;
+	background-color: #EDEDED;
+	border: none;
+	box-shadow: none;
+	padding: 4px;
+	width: 96%;
+}
+.wp_mtg_calc_credit {
+	font-family: inherit;
+	text-align: right;
+}
+#wp_mtg_calc_wrapper ul {
+	margin: 0 0 0 0 !important;
+	padding: 0 0;
+}
+#wp_mtg_calc_wrapper li {
+	list-style: none !important;
+	margin: 0 !important;
+	background-color: #FFFFFF;
+}
+#wp_mtg_calc_wrapper a.wp_mtg_calc_toggle {
+	font-family: inherit;
+	display: block;
+	text-decoration: none;
+	color: rgba(0, 0, 0, 1.0);
+	padding: 10px;
+	background: #EDEDED url("images/settings-black.png") no-repeat 100% 100%;
+	outline: none;
+	font-size: 10pt;
+	text-transform: lowercase;
+}
+#wp_mtg_calc_wrapper a.wp_mtg_calc_toggle span {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+	font-size: 20pt;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+#wp_mtg_calc_wrapper a.wp_mtg_calc_toggle:hover { color: rgba(50, 154, 163, 1.0); }
+#wp_mtg_calc_wrapper a.wp_mtg_calc_toggle:active { color: rgba(37, 187, 196, 1.0); }
+
+a#wp_mtg_calc_dpymt_toggle {
+	border-top: 1px solid #DDDDDD;
+}
+#wp_mtg_calc_pymt_div {
+	border-top: 1px solid #DDDDDD;
+}
+#wp_mtg_calc_dpymt_div {
+	display: block;
+	border-top: 1px solid #DDDDDD;
+}
+#wp_mtg_calc_pymt_div::before,
+#wp_mtg_calc_dpymt_div::before {
+	content: "" !important;
+}
+
+/* form styles */
+#wp_mtg_calc_wrapper form {
+	margin: 0 10px;
+}
+#wp_mtg_calc_wrapper form input[type="number"] {}
+#wp_mtg_calc_wrapper label {
+	font-size: 10pt;
+	color: #373737;
+}
+#wp_mtg_calc_wrapper p {
+	margin: 5px 0 0 0;
+}
+
+/* calculation result styles */
+#wp_mtg_calc_result, #wp_mtg_calc_dpymt_result { padding: 5px 10px; font-size: 10pt; }
+.wp_mtg_calc_error { color: #b60000; }
+.wp_mtg_calc_success { color: #852B99; }
+.wp_mtg_calc_label { font-weight: bold; }
+
+.m-btn {
+	position: relative;
+	display: inline-block;
+	overflow: visible;
+	margin: 0 0 10px 0;
+	padding: 10px 14px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background-color: #F3F3F3;
+	zoom: 1;
+	z-index: 1;
+	font-family: inherit;
+	font-size: 14px;
+	line-height: 12px;
+	color: #444;
+	min-width: 42px;
+	text-align: center;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.m-btn.blue {
+	color: #FFFFFF;
+	background-color: #4D90FE;
+}
+
+.m-btn.blue:hover, .m-btn.blue:focus, .m-btn.blue:active, .m-btn.blue.active, .m-btn.blue[disabled], .m-btn.blue.disabled {
+	background-color: #0072BB;
+}
+
+.m-btn:active, .m-btn.active {
+	background-color: #c6c6c6;
+	box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+.m-btn:focus {
+	/* Blue border on button focus. */
+	border-color: #4D90FE;
+}
